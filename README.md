@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# 🎁 Sorteador de Amigo Secreto (Secret Santa)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Sorteador de Amigo Secreto** é uma aplicação web interativa e amigável desenvolvida em **React** para automatizar o sorteio do tradicional "Amigo Secreto" (ou *Secret Santa*).
 
-## Available Scripts
+## 📝 Sobre o Projeto
 
-In the project directory, you can run:
+O objetivo principal deste projeto é fornecer uma ferramenta **rápida**, **justa** e **transparente** para organizar sorteios entre amigos, familiares ou colegas, garantindo que ninguém tire a si mesmo e que o processo seja divertido.
 
-### `npm start`
+## 🛠️ Técnicas e tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto foi construído utilizando as seguintes tecnologias de ponta para garantir uma experiência de usuário (UX) fluida e um código robusto:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `React.js` - Biblioteca para construção de interfaces dinâmicas.
+- `Typescript` - Linguagem que adiciona tipagem estática ao JavaScript.
+- `Recoil` - Biblioteca de gerenciamento de estado para React, que utiliza o conceito de átomos e seletores para gerenciar o estado global de forma reativa e otimizada.
+- `Jest` - Para testes.
+- `Figma` - Para prototipagem e design visual do projeto.
+- `CSS` - Para estilização da aplicação.
 
-### `npm test`
+## ✨ Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O sorteador oferece os seguintes recursos:
 
-### `npm run build`
+1.  **Cadastro de Participantes:** Adicione nomes de forma dinâmica na lista, com validação de nomes para que nenhum nome seja repetido.
+2.  **Sorteio Justo:** Implementação de um algoritmo que garante que **ninguém sorteie a si mesmo**.
+3.  **Visualização Clara:** Interface intuitiva que exibe os participantes e o resultado do sorteio (somente para o administrador que realiza o sorteio, mantendo o segredo).
+4.  **Validações:** Impede o sorteio se houver menos de 3 participantes (mínimo para um Amigo Secreto).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Como usar
+### ☁️Clonar o repositório:
+1. Para usar a aplicação, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/sorteador-de-amigo-secreto.git;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ⬇️Fazendo o download do repositório:
+1. Clique no botão "Code" neste repositório e faça o download;
+2. Salve o arquivo ZIP em seu computador e descompacte-o;
+3. Abra a pasta descompactada no VS Code. Para isso, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> - **File > Open Folder** (ou uma opção similar).
+> - Procure o local onde o projeto foi salvo e selecione a pasta (se o projeto foi baixado como um arquivo ZIP, será necessário extraí-lo antes).
+> - Clique em **OK**.
 
-### `npm run eject`
+## ▶️ Executar o projeto
+Para rodar o projeto, será necessário executar os seguintes comandos:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Instalação das Dependências:
+Primeiro, você precisa instalar todas as dependências do projeto. Abra o terminal na pasta raiz do projeto e execute:
+> ```npm install```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Executar os testes:
+Abra o terminal na pasta do projeto e execute o seguinte comando:
+> ```npm test```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Executar o projeto (React)
+Abra um novo terminal na pasta raiz do projeto. Agora, inicie a aplicação React:
+> ```npm start```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A aplicação será iniciada e você poderá acessá-la em seu navegador através do endereço http://localhost:3000.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra em [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
